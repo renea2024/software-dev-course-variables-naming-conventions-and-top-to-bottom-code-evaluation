@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice"; 
+let itemCount = 5; 
+let itemName = "pumpkins" 
+let itemPrice = 20; 
+let storeName = "Farm Fresh Foods" 
+let receiptMsg = customerName + " bought " + itemCount + itemName + "for $ " + itemPrice + "from " + storeName + "."; 
+console.log(receiptMsg);
 
-console.log(d);
+
