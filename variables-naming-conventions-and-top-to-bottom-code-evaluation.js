@@ -29,7 +29,6 @@ let itemCount = 5;
 let itemName = "pumpkins" 
 let itemPrice = 20; 
 let storeName = "Farm Fresh Foods" 
-let receiptMsg = customerName + " bought " + itemCount + itemName + "for $ " + itemPrice + "from " + storeName + "."; 
+let receiptMsg = customerName + " bought " + itemCount + " " + itemName + " for $" + itemPrice + " from " + storeName + "."; 
 console.log(receiptMsg);
-
 
